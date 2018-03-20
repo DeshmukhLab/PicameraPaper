@@ -1,0 +1,1 @@
+Copy *StartAcquisition_gpio.py* and *killrecording.py* in the same folder (example: /home/user/Desktop in our case) on each Raspberry Pi. Note that this is the folder where video and timestamps file will be saved. 
