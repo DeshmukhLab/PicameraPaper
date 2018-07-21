@@ -20,5 +20,8 @@ Follow the steps in following order:
     * getTransformedImages: generates the transformed images from each camera using the previously calculated registration data.
     * stitchedVideoTracking: calculates position in each video camera frame from given set of video inputs
     * stitching&RegistrationData: calculates the registration data and saves single blended image from multiple input images.
-    
+
+
+* **adjustTime_multiplesync**: python script to account for temporal drift between the Picamera system and the Neuralynx data acquisition system. Requires: neuralynxio.py to read Neuralynx event file data. 
+
 (Compilation and running instruction are present within each sub folder)
